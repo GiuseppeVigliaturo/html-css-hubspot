@@ -25,7 +25,8 @@ body{
   margin-left: 10%;
   background-image: url("../img/logopiccolo.png");
   background-repeat: no-repeat;
-  background-size: 10%;
+  background-size: 14%;
+  background-position: 10px 10px;
 
 }
 .rowheaderbar_1 .barraricerca{
@@ -147,7 +148,7 @@ body{
 /*fine 3 riga di testa*/
 .presentation{
   width: 100%;
-  height: 600px;
+  height: 440px;
   background: url("../img/header-bg (2).jpg");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -174,6 +175,93 @@ body{
   /*height: 100px;*/
 
 }
+/*inizio dei 3 blocchi principali*/
+
+/*blocco powerful together*/
+.insieme{
+  width: 100%;
+  height: 380px;
+  background: rgb(211, 234, 232);
+}
+.rowtogetherup{
+  width: 100%;
+  background: url("../img/powerfulimg.png");
+  background-repeat: no-repeat;
+  background-size: 18%;
+  height: 200px;
+  margin-left: 50%;
+}
+.togethertext{
+  width: 50%;
+  margin-left: 30%;
+  margin-right: 15%;
+}
+.rowtogetherdown{
+  position: absolute;
+  height: 200px
+}
+/*blocco crm*/
+
+.crm{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+  height: 500px;
+}
+
+.crm::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.crmsx{
+  float: left;
+  width: 40%;
+  background: red;/*debug*/
+  height: 200px;/*debug*/
+
+}
+
+.crmdx{
+  float: left;
+  width: 60%;
+  background: blue;/*debug*/
+  height: 200px;/*debug*/
+}
+/*blocco shopify*/
+.businesshubspot{
+  width: 100%;
+  height: 400px;
+  }
+
+.businesshubspot::after{
+  content: "";
+  display: table;
+  clear: both;
+  }
+
+  .businesshubspotdx{
+    float: left;
+    width: 45%;
+    height: 100px;
+    margin-left: 5%;
+    }
+
+ .hubspotcustomer{
+   width: 200px;
+   margin-top:10px;
+   margin-left: 100px;
+
+ }
+ .hubspotcustomer > h2{
+   color:rgb(41, 43, 38);
+ }
+
+ .hubspotcustomer > h4{
+   color:rgba(46, 58, 65, 0.98)
+ }
+
 
 
 /*blocco con la foto della donna*/
@@ -183,7 +271,7 @@ body{
   height: 400px;
   }
 
-.fotodonna{
+.fotodonna::after{
   content: "";
   display: table;
   clear: both;
@@ -191,9 +279,30 @@ body{
 
 .fotodonnasx{
   float: left;
-  width: 50%;
+  width: 45%;
   height: 100px;
+  margin-left: 5%;
   }
+
+  .invitoiscrizione > h2{
+    color:rgb(41, 43, 38);
+  }
+
+  .invitoiscrizione > h4{
+    color:rgba(46, 58, 65, 0.98)
+  }
+
+  .invitoiscrizione > a{
+    display: inline-block;
+    padding: 10px 10px;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: orange;
+    color: white;
+
+  }
+
+
 
   .fotodonnadx{
     float: left;
@@ -213,10 +322,12 @@ body{
 
 
 /*inizio footer*/
+
 .finepag{
   width: 100%;
-  height: 100px;
+  /*height: 100px;*/
   background: rgb(27, 47, 119);
+
 }
 
 .footcoloumn{
@@ -266,34 +377,44 @@ body{
 .footrow1{
   height: 50px;
   width: 100%;
-  background: yellow;
+  background: rgb(27, 47, 119);
+}
+
+.footrow1 > a{
+  display: inline-block;
+  margin-left: 73%;
+  padding:5px 5px;
+  border: 2px solid grey;
+  border-radius: 3px;
+  background: white;
 }
 .footrowsocial{
   width: 100%;
   border-bottom: 1px solid grey;
+  background: rgb(27, 47, 119);
 }
 
-  .social{
-    width: 45%;
-    margin-left: 55%;
+.social{
+  width: 45%;
+  margin-left: 55%;
+}
 
-  }
+.social::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-  .social::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  .social .elementosocial{
-    float: left;
-    width: 20%;
-  }
+.social .elementosocial{
+  float: left;
+  width: 20%;
+}
 
 .footrow3{
   height: 50px;
   width: 100%;
-  background: yellow;
+  background: rgb(27, 47, 119);
+
 }
 
 .lingue{
@@ -315,6 +436,7 @@ body{
 .footrow4{
   height: 50px;
   width: 100%;
+  background: rgb(27, 47, 119);
 }
 
 .footrow4{
@@ -326,7 +448,6 @@ body{
 .footrow4 .copyright{
   float: left;
   width: 50%;
-
   background: red;
 }
 
