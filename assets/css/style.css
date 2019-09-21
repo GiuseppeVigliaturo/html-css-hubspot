@@ -1,0 +1,219 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ /* blocco prima riga header  */
+.rowheaderbar_1{
+  width: 100%;
+  height: 100px;
+  background: white;
+
+}
+
+.rowheaderbar_1{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* divisione in blocchi colonna prima riga in float */
+
+.rowheaderbar_1 .logo{
+  float: left;
+  width: 30%;
+  height: 100px;
+  margin-left: 10%;
+  background: red;
+
+}
+.rowheaderbar_1 .barraricerca{
+  float: left;
+  width: 30%;
+  height: 100px;
+  background: blue;
+
+}
+
+.rowheaderbar_1 .ricerca{
+  float: left;
+  width: 30%;
+  height: 100px;
+  background: white;
+
+}
+
+
+/* fine prima riga*/
+
+/*inizio seconda riga*/
+.rowheaderbar_2{
+  width: 100%;
+  height: 100px;
+  background: white;
+
+}
+
+.rowheaderbar_2{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.rowheaderbar_2 .globe{
+  float: left;
+  width: 30%;
+  height: 100px;
+  margin-left: 10%;
+  background: red;
+
+}
+.rowheaderbar_2 .numvendita{
+  float: left;
+  width: 30%;
+  height: 100px;
+  background: white;
+
+}
+
+.rowheaderbar_2 .hubbar{
+  float: left;
+  width: 30%;
+  height: 100px;
+  background: yellow;
+
+}
+
+
+
+/*fine seconda riga di testa*/
+
+/*blocco 3 riga*/
+.rowheaderbar_3{
+  width: 100%;
+  height: 100px;
+  background: red;
+
+}
+
+.rowheaderbar_3{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.rowheaderbar_3 .logolettere{
+  float: left;
+  width: 30%;
+  height: 100px;
+  margin-left: 10%;
+  background: orange;
+
+}
+
+.rowheaderbar_3 .pannelloinfo{
+  float: left;
+  width: 60%;
+  height: 100px;
+  background: green;
+
+}
+
+/*fine 3 riga di testa*/
+.presentation{
+  width: 100%;
+  height: 100px;
+  background: pink;
+}
+
+.presentation{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.presentationsx{
+  float: left;
+  width: 30%;
+  height: 100px;
+  margin-left: 10%;
+  background: orange;
+
+}
+
+
+
+/*inizio footer*/
+.finepag{
+  width: 100%;
+  height: 100px;
+  background: red;
+}
+
+.footcoloumn{
+  width: 100%;
+  background: blue;
+  margin-left: 10%;
+
+}
+
+.footcoloumn{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* blocco 4 colonne superiori footer*/
+
+.footcol1{
+  float: left;
+  width: 20%;
+  height: 100px;
+  background: orange;
+}
+
+.footcol2{
+  float: left;
+  width: 20%;
+  height: 100px;
+  background: white;
+}
+
+.footcol3{
+  float: left;
+  width: 20%;
+  height: 100px;
+  background: green;
+}
+
+.footcol4{
+  float: left;
+  width: 20%;
+  height: 100px;
+  background: red;
+}
+/*inizio righe footer*/
+
+.footrow1{
+  height: 50px;
+  width: 100%;
+  background: yellow;
+}
+.footrow2{
+  height: 50px;
+  width: 100%;
+  background: red;
+}
+.footrow3{
+  height: 50px;
+  width: 100%;
+  background: yellow;
+}
+
+.footrow4{
+  height: 50px;
+  width: 100%;
+  background: blue;
+}
