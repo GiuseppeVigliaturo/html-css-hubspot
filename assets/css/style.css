@@ -200,9 +200,64 @@ body{
   position: absolute;
   height: 200px
 }
-/*blocco crm*/
+/*blocco freehubspot*/
 
-.crm{
+.freehubspot{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+  height: 250px;
+}
+
+.freehubspot::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.freehubspotsx{
+  float: left;
+  width: 40%;
+  height: 200px;/*debug*/
+}
+
+.freehubspotsx > a{
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 2px;
+  padding: 10px;
+  background: orange;
+  margin-top: 10px;
+  margin-left: 40%;
+}
+
+.freehubspotdx{
+  float: left;
+  width: 60%;
+  height: 200px;/*debug*/
+}
+
+.freehubspotdx .popular{
+
+}
+
+.freehubspotdx .popular::after{
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+.popularelement{
+  float: left;
+  width: 23%;
+}
+
+/*fine blocco free hubspot */
+
+/* blocco marketinghub compsto da 3 colonne  */
+
+.mtc{
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
@@ -210,25 +265,46 @@ body{
   height: 500px;
 }
 
-.crm::after{
+.mtc::after{
   content: "";
   display: table;
   clear: both;
 }
-.crmsx{
-  float: left;
-  width: 40%;
-  background: red;/*debug*/
-  height: 200px;/*debug*/
 
+.colmtc{
+  float: left;
+  width: 30%;
 }
 
-.crmdx{
-  float: left;
-  width: 60%;
-  background: blue;/*debug*/
-  height: 200px;/*debug*/
+.market{
+  display: block;
+  margin-top: 10px;
+  width: 50%;
+  margin: auto;
 }
+
+.bloccotesto{
+  margin-bottom: 10px;
+  border-bottom: 1px solid grey;
+}
+
+.bloccotesto > h4,h2{
+  text-align: center;
+}
+
+.features > h3 {
+text-align: center;
+}
+
+
+.colmtc.sales{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+
+
 /*blocco shopify*/
 .businesshubspot{
   width: 100%;
@@ -241,15 +317,52 @@ body{
   clear: both;
   }
 
-  .businesshubspotdx{
+  .businesshubspotsx{
     float: left;
     width: 45%;
     height: 100px;
     margin-left: 5%;
     }
 
+  .businesshubspotdx{
+    float: left;
+    width: 45%;
+    height: 100px;
+    margin-left: 5%;
+  }
+
+.businesshubspotdx .businessrow{
+width: 90%;
+margin-left: 10%;
+margin-bottom: 5px;
+height: 400px;
+
+}
+
+.businesshubspotdx .business .elementbusiness{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.business.row1 .businesselement > li{
+  float: left;
+  width: 25%;
+}
+
+.business.row2 .businesselement > li{
+  float: left;
+  width: 25%;
+}
+
+.brand{
+  display: block;
+  margin-top: 5px;
+  width: 80px;;
+  }
+
  .hubspotcustomer{
-   width: 200px;
+   width: 250px;
    margin-top:10px;
    margin-left: 100px;
 
@@ -326,16 +439,12 @@ body{
 .finepag{
   width: 100%;
   /*height: 100px;*/
-  background: rgb(27, 47, 119);
+  background: #33475b;
 
 }
 
 .footcoloumn{
   width: 100%;
-  background: rgb(27, 47, 119);
-
-
-
 }
 
 .footcoloumn::after{
@@ -346,38 +455,22 @@ body{
 
 /* blocco 4 colonne superiori footer*/
 
-.footcol1{
+.footcol{
   float: left;
   width: 20%;
   margin-top: 2%;
+
+}
+
+.footcol.prima{
   margin-left: 10%;
-
 }
 
-
-.footcol2{
-  float: left;
-  width: 20%;
-  height: 100px;
-}
-
-.footcol3{
-  float: left;
-  width: 20%;
-  height: 100px;
-}
-
-.footcol4{
-  float: left;
-  width: 20%;
-  height: 100px;
-}
 /*inizio righe footer*/
 
 .footrow1{
   height: 50px;
   width: 100%;
-  background: rgb(27, 47, 119);
 }
 
 .footrow1 > a{
@@ -391,7 +484,6 @@ body{
 .footrowsocial{
   width: 100%;
   border-bottom: 1px solid grey;
-  background: rgb(27, 47, 119);
 }
 
 .social{
@@ -413,7 +505,6 @@ body{
 .footrow3{
   height: 50px;
   width: 100%;
-  background: rgb(27, 47, 119);
 
 }
 
@@ -434,9 +525,10 @@ body{
 }
 
 .footrow4{
-  height: 50px;
+  height: 200px;
   width: 100%;
-  background: rgb(27, 47, 119);
+  background: red;
+
 }
 
 .footrow4{
@@ -448,11 +540,13 @@ body{
 .footrow4 .copyright{
   float: left;
   width: 50%;
-  background: red;
+  background: white;
+  height: 50px;
 }
 
 .footrow4 .privacy{
   float: left;
   width: 50%;
+
 
 }
