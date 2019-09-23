@@ -57,6 +57,7 @@ body{
 .infomenu .elementiinfomenu{
   float: left;
   width: 25%;
+  list-style-type: none;
 }
 
 
@@ -238,6 +239,7 @@ body{
 }
 
 .freehubspotdx .popular{
+  list-style-type: none;
 
 }
 
@@ -296,6 +298,9 @@ body{
 text-align: center;
 }
 
+.featureselement{
+  list-style-type: none;
+}
 
 .colmtc.sales{
   margin-left: 5%;
@@ -510,6 +515,10 @@ height: 400px;
   margin-left: 10%;
 }
 
+.elementfootcolumn{
+  list-style-type: none;
+}
+
 /*inizio righe footer*/
 
 .footrow1{
@@ -544,6 +553,7 @@ height: 400px;
 .social .elementosocial{
   float: left;
   width: 20%;
+  list-style-type: none;
 }
 
 .footrow3{
@@ -566,6 +576,7 @@ height: 400px;
 .lingue .elementlingue{
   float: left;
   width: 20%;
+  list-style-type: none;
 }
 
 .footrow4{
