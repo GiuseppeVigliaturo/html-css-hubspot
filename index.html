@@ -5,6 +5,7 @@
     <title>hubspot</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- creo le tre barrenella header  -->
@@ -17,19 +18,21 @@
 
         </div>
 
+        <!-- prova dropbar  -->
+
         <nav class="barraricerca">
             <ul class="infomenu">
-              <li class="elementiinfomenu"><a href="#">contact</a> </li>
-              <li class="elementiinfomenu"><a href="#">conversation</a> </li>
-              <li class="elementiinfomenu"><a href="#">marketing</a> </li>
-              <li class="elementiinfomenu"><a href="#">sales</a> </li>
+              <li class="elementiinfomenu"> <i class="fas fa-sort-down"></i><a href="#">contact</a> </li>
+              <li class="elementiinfomenu"> <i class="fas fa-sort-down"></i><a href="#">conversatio</a> </li>
+              <li class="elementiinfomenu"> <i class="fas fa-sort-down"></i><a href="#">marketing</a> </li>
+              <li class="elementiinfomenu"> <i class="fas fa-sort-down"></i><a href="#">sales</a> </li>
             </ul>
           </nav>
 
 
         <div class="ricerca">
 
-          <h5>Giggino</h5>
+          <i class="fas fa-search"></i><h5 class="Giggino"><i class="far fa-user-circle"></i> Giggino</h5>
 
         </div>
 
@@ -43,17 +46,17 @@
 
         <div class="globe">
 
-          <a href="#">English</a>
+          <p><a href="#">English</a></p>
 
         </div>
 
         <div class="numvendita">
-          <a href="#">Sales:+123456789</a>
+          <a class="numero" href="#">Sales:+123456789 </a> <i class="fas fa-sort-down"></i>
 
         </div>
 
         <div class="hubbar">
-          <a href="#">Get hubspot free</a>
+          <i class="fas fa-search"></i><a class="button"href="#">Get hubspot free</a>
 
         </div>
 
@@ -70,6 +73,14 @@
         </div>
 
         <div class="pannelloinfo">
+          <nav class="barraricerca">
+              <ul class="infomenu">
+                <li class="elementiinfomenu"> <i class="fas fa-sort-down"></i><a href="#">software</a> </li>
+                <li class="elementiinfomenu"> <i class="fas fa-sort-down"></i><a href="#">Pricing</a> </li>
+                <li class="elementiinfomenu"> <i class="fas fa-sort-down"></i><a href="#">Resources</a> </li>
+                <li class="elementiinfomenu"> <i class="fas fa-sort-down"></i><a href="#">partners</a> </li>
+              </ul>
+            </nav>
 
         </div>
 
@@ -89,7 +100,7 @@
         <div class="presentationtxt">
         <h2>There’s a better way to grow.</h2>
         <h6>Marketing, sales, and service software that helps your business grow without compromise. Because “good for the business” should also mean “good for the customer.”</h6>
-        <a href="#">Get hubspot free</a>
+        <a class="button" href="#">Get hubspot free</a>
         <h6>Get started with FREE tools, and upgrade as you grow</h6>
       </div>
 
@@ -108,6 +119,9 @@
     <section class="insieme">
 
       <div class="rowtogetherup">
+
+        <img class="rubik"src="assets/img/cubo.png" alt="cubo">
+
 
       </div>
 
@@ -130,7 +144,7 @@
 
         <div class="freehubspotsx">
           <img class="market" src="assets/img/librofelice.svg" alt="libro">
-          <a href="#">Learn More</a>
+          <a class="button" href="#">Learn More</a>
 
 
         </div>
@@ -254,7 +268,7 @@
         <div class="testotab">
 
           <h1>Learn and grow with award-winning support and a thriving community behind you.</h1>
-          <h2>You don't have to go it alone. Master the inbound methodology and get the most out of your tools with HubSpot's legendary customer support team and a community of thousands of marketing and sales pros just like you</h2>
+          <p>You don't have to go it alone. Master the inbound methodology and get the most out of your tools with HubSpot's legendary customer support team and a community of thousands of marketing and sales pros just like you</p>
 
         </div>
         <div class="rigatabella superiore ">
@@ -416,7 +430,7 @@
 
         <div class="footcol seconda">
 
-          <ul>
+          <ul class="listacolonna">
             <li class="elementfootcolumn">lorem ipsum</li>
             <li class="elementfootcolumn">lorem ipsum</li>
             <li class="elementfootcolumn">lorem ipsum</li>
@@ -430,7 +444,7 @@
         </div>
         <div class="footcol terza">
 
-          <ul>
+          <ul class="listacolonna">
             <li class="elementfootcolumn">lorem ipsum</li>
             <li class="elementfootcolumn">lorem ipsum</li>
             <li class="elementfootcolumn">lorem ipsum</li>
@@ -444,14 +458,14 @@
         </div>
         <div class="footcol quarta">
 
-          <ul>
-            <li>lorem ipsum</li>
-            <li>lorem ipsum</li>
-            <li>lorem ipsum</li>
-            <li>lorem ipsum</li>
-            <li>lorem ipsum</li>
-            <li>lorem ipsum</li>
-            <li>lorem ipsum</li>
+          <ul class="listacolonna">
+            <li class="elementfootcolumn">lorem ipsum</li>
+            <li class="elementfootcolumn">lorem ipsum</li>
+            <li class="elementfootcolumn">lorem ipsum</li>
+            <li class="elementfootcolumn">lorem ipsum</li>
+            <li class="elementfootcolumn">lorem ipsum</li>
+            <li class="elementfootcolumn">lorem ipsum</li>
+            <li class="elementfootcolumn">lorem ipsum</li>
 
           </ul>
 
@@ -468,21 +482,22 @@
 
         <div class="footrowsocial">
           <ul class="social">
-            <li class="elementosocial"> <img src="" alt="fb"> </li>
-            <li class="elementosocial"> <img src="" alt="ig"> </li>
-            <li class="elementosocial"> <img src="" alt="twitter"> </li>
-            <li class="elementosocial"> <img src="" alt="youtube"> </li>
+            <li class="elementosocial"> <img src="assets/img/logofb.png" alt="fb"> </li>
+            <li class="elementosocial"> <img src="assets/img/iglogo.png" alt="ig"> </li>
+            <li class="elementosocial"> <img src="assets/img/twitterlogo.jpg" alt="twitter"> </li>
+            <li class="elementosocial"> <img src="assets/img/ytlogo.png" alt="youtube"> </li>
          </ul>
        </div>
 
         <div class="footrow3">
 
           <ul class="lingue">
-            <li class="elementlingue">Engish</li>
-            <li class="elementlingue">Engish</li>
-            <li class="elementlingue">Engish</li>
-            <li class="elementlingue">Engish</li>
-            <li class="elementlingue">Engish</li>
+            <li class="elementlingue"><a href="#">Engish</a></li>
+            <li class="elementlingue"><a href="#">Engish</a></li>
+            <li class="elementlingue"><a href="#">Engish</a></li>
+            <li class="elementlingue"><a href="#">Engish</a></li>
+            <li class="elementlingue"><a href="#">Engish</a></li>
+
 
           </ul>
 
@@ -491,10 +506,15 @@
         <div class="footrow4">
 
           <div class="copyright">
+            <img src="assets/img/hubspotcopyright.svg" alt="logo">
+            <p>Copyright © 2019 HubSpot, Inc</p>
 
           </div>
 
           <div class="privacy">
+            <a href="#"> Legal Stuff</a>
+            <a href="#">Privacy Policy</a>
+
 
           </div>
 
